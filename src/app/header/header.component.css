@@ -1,7 +1,9 @@
 a {
  text-decoration: none;
- width: 50px;
- float: left;
- padding-left: 20px;
+ font-size: 36px;
+ padding: 10px;
 }
 
+.site-logo, .site-title {
+ display: inline;
+}
