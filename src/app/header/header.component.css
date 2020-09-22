@@ -1,3 +1,7 @@
-mat-list-item {
+a {
+ text-decoration: none;
+ width: 50px;
  float: left;
+ padding-left: 20px;
 }
+
