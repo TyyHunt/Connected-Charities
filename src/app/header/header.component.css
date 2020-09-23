@@ -1,13 +1,13 @@
 a {
- display: inline-flex;
-}
-
-p {
  font-family: 'Satisfy', cursive;
  font-weight: bold;
  color: #fff;
 }
 
-nav {
- background-color: #644286;
+img {
+ filter: invert(100%);
+}
+
+.site-navbar {
+ background-color: #964E73;
 }
