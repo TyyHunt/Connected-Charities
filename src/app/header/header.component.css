@@ -1,13 +1,16 @@
 a {
  font-family: 'Satisfy', cursive;
- font-weight: bold;
+ font-weight: lighter;
  color: #fff;
+ font-size: 30px;
 }
 
 img {
  filter: invert(100%);
+ margin: 5px 0px 0px 10px;
 }
 
 .site-navbar {
  background-color: #964E73;
+ padding: 0;
 }
