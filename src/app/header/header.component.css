@@ -7,10 +7,4 @@ a {
 
 img {
  filter: invert(100%);
- margin: 5px 0px 0px 10px;
-}
-
-.site-navbar {
- background-color: #964E73;
- padding: 0;
 }

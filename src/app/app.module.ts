@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { MenuListComponent } from './menu-list/menu-list.component';
 import { ItemComponent } from './item/item.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ItemComponent } from './item/item.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    MatToolbarModule
 
   ],
   providers: [],
