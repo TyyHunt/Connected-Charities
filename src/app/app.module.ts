@@ -6,18 +6,22 @@ import { HeaderComponent } from './header/header.component';
 import { MenuListComponent } from './menu-list/menu-list.component';
 import { ItemComponent } from './item/item.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
+import { ItemCreateComponent } from './item/item-create/item-create.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MenuListComponent,
-    ItemComponent
+    ItemComponent,
+    ItemCreateComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule
 
   ],
   providers: [],
