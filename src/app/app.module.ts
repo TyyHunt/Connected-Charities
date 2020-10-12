@@ -31,7 +31,7 @@ import { ItemListComponent } from './item/item-list/item-list.component';
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
-    MatExpansionModule
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
