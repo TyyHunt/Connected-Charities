@@ -2,20 +2,20 @@
  <mat-card-title>Add Item</mat-card-title>
  <mat-form-field>
   <mat-label>Item Type</mat-label>
-  <input matInput placeholder="Type">
+  <input matInput type="text" [(ngModel)]="enteredItemType">
  </mat-form-field>
  <mat-form-field>
   <mat-label>Color</mat-label>
-  <input matInput placeholder="Type">
+  <input matInput type="text" [(ngModel)]="enteredColor">
  </mat-form-field>
  <mat-form-field>
   <mat-label>Quantity</mat-label>
-  <input matInput placeholder="Type">
+  <input matInput type="text" [(ngModel)]="enteredQuantity">
  </mat-form-field>
  <mat-form-field>
   <mat-label>Description</mat-label>
-  <textarea matInput placeholder="Type"></textarea>
+  <textarea matInput type="textarea" [(ngModel)]="enteredDescription"></textarea>
  </mat-form-field>
- <button mat-raised-button color="primary" (click)="onAddItem()">Add Item</button>
+ <button mat-raised-button color="accent" (click)="onAddItem()">Add Item</button>
 </mat-card>
 

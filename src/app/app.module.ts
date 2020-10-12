@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { MenuListComponent } from './menu-list/menu-list.component';
 import { ItemComponent } from './item/item.component';
+import { FormsModule } from '@angular/forms';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -32,6 +33,7 @@ import { ItemListComponent } from './item/item-list/item-list.component';
     MatFormFieldModule,
     MatInputModule,
     MatExpansionModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,16 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemListComponent implements OnInit {
   items = [{
-      itemType: 'Shirt',
-      color: 'red',
-      quantity: '10',
-      description: 'baseball tee-shirt'
-  },
-  {
-    itemType: 'Pants',
-    color: 'blue',
-    quantity: '5',
-    description: 'mens jeans'
+    itemType: 'Shirt',
+    color: 'red',
+    quantity: '10',
+    description: 'baseball tee-shirt'
+},
+{
+  itemType: 'Pants',
+  color: 'blue',
+  quantity: '5',
+  description: 'mens jeans'
 }];
 
   constructor() { }

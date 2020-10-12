@@ -1,5 +1,5 @@
 <div class="mat-accordian-item-list">
- <mat-accordion multi="false">
+ <mat-accordion multi="false" *ngIf="items.length > 0">
   <mat-expansion-panel *ngFor="let item of items">
    <mat-expansion-panel-header>
      <mat-panel-title>
@@ -13,4 +13,5 @@
    <p><span>Quantity:</span> {{item.quantity}}</p>
   </mat-expansion-panel>
  </mat-accordion>
+ <p class="mat-body-1 no-post-info" *ngIf="items.length <= 0">No posts added yet!</p>
 </div>

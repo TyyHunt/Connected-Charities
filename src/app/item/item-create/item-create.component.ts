@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./item-create.component.css']
 })
 export class ItemCreateComponent implements OnInit {
-  newItem = "No Items";
+  enteredItemType = "";
+  enteredColor = "";
+  enteredQuantity = "";
+  enteredDescription = "";
 
   onAddItem() { 
-    this.newItem = "Item added!";
+    const item = {
+      itemType: this.enteredItemType,
+      color: this.enteredColor,
+      quantity: this.enteredQuantity,
+      description: this.enteredDescription
+    }
   }
 
   constructor() { }
