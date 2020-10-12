@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./item.component.css']
 })
 export class ItemComponent implements OnInit {
+  storedItems =[];
+
+  onItemAdded(item) {
+    this.storedItems.push(item);
+  }
 
   constructor() { }
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-item-create',
@@ -10,6 +10,7 @@ export class ItemCreateComponent implements OnInit {
   enteredColor = "";
   enteredQuantity = "";
   enteredDescription = "";
+  @Output() itemCreated = new EventEmitter();
 
   onAddItem() { 
     const item = {
@@ -18,6 +19,8 @@ export class ItemCreateComponent implements OnInit {
       quantity: this.enteredQuantity,
       description: this.enteredDescription
     }
+
+    this.itemCreated.emit(item);
   }
 
   constructor() { }

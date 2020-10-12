@@ -1,2 +1,2 @@
-<app-item-create></app-item-create>
-<app-item-list></app-item-list>
+<app-item-create (itemCreated)="onItemAdded($event)"></app-item-create>
+<app-item-list [items]="storedItems"></app-item-list>
