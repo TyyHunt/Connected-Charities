@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./item-create.component.css']
 })
 export class ItemCreateComponent implements OnInit {
-  newPost = "";
+  newItem = "No Items";
 
   onAddItem() { 
-    this.newPost = "Post added!";
+    this.newItem = "Item added!";
   }
 
   constructor() { }
