@@ -11,6 +11,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ItemCreateComponent } from './item/item-create/item-create.component';
+import { ItemListComponent } from './item/item-list/item-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ItemCreateComponent } from './item/item-create/item-create.component';
     HeaderComponent,
     MenuListComponent,
     ItemComponent,
-    ItemCreateComponent
+    ItemCreateComponent,
+    ItemListComponent
   ],
   imports: [
     BrowserModule,
